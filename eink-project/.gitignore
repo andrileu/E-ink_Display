@@ -1,0 +1,27 @@
+# Operating system / temporary editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.tmp
+.vscode/launch.json
+
+# Arduino build products (keep .ino sources!)
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+
+# Private local configuration / future network credentials
+secrets.h
+credentials.h
+*.local.h
+*.pem
+*.key
+.env
+.env.*
+
+# Avoid tracking generated IDE/OS leftovers
+__pycache__/
